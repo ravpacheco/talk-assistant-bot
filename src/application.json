@@ -1,0 +1,29 @@
+﻿{
+  /* TODO: Put your chatbot identifier and accessKey bellow. */
+  "identifier": "botsbrasilconf",
+  "accessKey": "QTE4MjBEUHFmZXVKNjI2c3VYOWw=",
+  "messageReceivers": [
+    {
+      "type": "PlainTextMessageReceiver",
+      "mediaType": "text/plain"
+    },
+    {
+      "type": "TriggerMessageReceiver",
+      "mediaType": "application/vnd.custom.trigger\\+json"
+    },
+    {
+      "type": "MediaLinkMessageReceiver",
+      "mediaType": "application/vnd.lime.media-link"
+    },
+    {
+      "type": "LocationMessageReceiver",
+      "mediaType": "application/vnd.lime.location"
+    }
+  ],
+  "settings": {
+    "key1": "value1",
+    "key2": 2
+  },
+  "settingsType": "Settings",
+  "startupType": "Startup"
+}
